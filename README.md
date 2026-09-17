@@ -31,3 +31,9 @@ src/
   pages/         Home, Album, Search
 public/data/     the music catalog served as JSON
 ```
+
+## Note
+
+This is a personal, non-commercial UI clone built for learning purposes.
+Track metadata references real song titles/artists for demo purposes only;
+playback audio uses royalty-free sample tracks.
