@@ -14,8 +14,10 @@ export default function TrackRow({ track, index, queue, album }) {
     }
   };
 
+  const unavailable = !track.src;
+
   return (
-    <div className={`track-row ${isCurrent ? "active" : ""}`} onClick={handleClick}>
+    <div className={`track-row ${isCurrent ? "active" : ""} ${unavailable ? "unavailable" : ""}`} onClick={handleClick}>
       <div className="track-row-index">
         {isCurrent && isPlaying ? <PauseIcon /> : isCurrent ? <PlayIcon /> : index + 1}
       </div>
@@ -24,7 +26,9 @@ export default function TrackRow({ track, index, queue, album }) {
         <div className="track-row-artist">{track.artist}</div>
       </div>
       {album && <div className="track-row-album">{album}</div>}
-      <div className="track-row-duration">{isCurrent ? formatTime(duration) : "--:--"}</div>
+      <div className="track-row-duration">
+        {unavailable ? "No preview" : isCurrent ? formatTime(duration) : "--:--"}
+      </div>
     </div>
   );
 }

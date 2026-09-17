@@ -420,6 +420,11 @@
   text-align: right;
 }
 
+.track-row.unavailable .track-row-duration {
+  font-style: italic;
+  color: var(--text-faint);
+}
+
 /* Search page */
 .search-input {
   width: 100%;
@@ -482,6 +487,13 @@
 .player-placeholder {
   font-size: 13px;
   color: var(--text-faint);
+}
+
+.player-track-unavailable {
+  font-size: 11px;
+  color: #f2c94c;
+  margin-top: 2px;
+  font-style: italic;
 }
 
 .player-controls {

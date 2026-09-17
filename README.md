@@ -2,6 +2,8 @@
 
 A responsive music streaming interface built with React, inspired by Spotify.
 
+**Live demo:** [spotify-clone-one-pearl.vercel.app](https://spotify-clone-one-pearl.vercel.app/)
+
 ## Features
 
 - Song playback with play/pause, next/previous, seek, and volume controls

@@ -3,7 +3,7 @@ import { formatTime } from "../utils/format";
 import { PlayIcon, PauseIcon, PrevIcon, NextIcon, VolumeIcon } from "./icons";
 
 export default function Player() {
-  const { currentTrack, isPlaying, currentTime, duration, volume, togglePlay, next, prev, seek, setVolume } = usePlayer();
+  const { currentTrack, isPlaying, currentTime, duration, volume, previewUnavailable, togglePlay, next, prev, seek, setVolume } = usePlayer();
 
   const progressPct = duration ? (currentTime / duration) * 100 : 0;
 
@@ -16,6 +16,7 @@ export default function Player() {
             <div>
               <div className="player-track-title">{currentTrack.title}</div>
               <div className="player-track-artist">{currentTrack.artist}</div>
+              {previewUnavailable && <div className="player-track-unavailable">Preview unavailable</div>}
             </div>
           </>
         ) : (
@@ -28,7 +29,7 @@ export default function Player() {
           <button className="icon-btn" onClick={prev} disabled={!currentTrack} aria-label="Previous track">
             <PrevIcon />
           </button>
-          <button className="play-btn" onClick={togglePlay} disabled={!currentTrack} aria-label={isPlaying ? "Pause" : "Play"}>
+          <button className="play-btn" onClick={togglePlay} disabled={!currentTrack || previewUnavailable} aria-label={isPlaying ? "Pause" : "Play"}>
             {isPlaying ? <PauseIcon /> : <PlayIcon />}
           </button>
           <button className="icon-btn" onClick={next} disabled={!currentTrack} aria-label="Next track">
@@ -45,7 +46,7 @@ export default function Player() {
             onChange={(e) => seek(Number(e.target.value))}
             className="seek-bar"
             style={{ "--progress": `${progressPct}%` }}
-            disabled={!currentTrack}
+            disabled={!currentTrack || previewUnavailable}
           />
           <span className="time-label">{formatTime(duration)}</span>
         </div>

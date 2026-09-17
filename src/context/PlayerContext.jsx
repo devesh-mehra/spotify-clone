@@ -12,6 +12,7 @@ export function PlayerProvider({ children }) {
   const [volume, setVolume] = useState(0.8);
 
   const currentTrack = queueIndex >= 0 ? queue[queueIndex] : null;
+  const previewUnavailable = Boolean(currentTrack) && !currentTrack.src;
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -36,8 +37,15 @@ export function PlayerProvider({ children }) {
   useEffect(() => {
     if (!currentTrack) return;
     const audio = audioRef.current;
-    audio.src = currentTrack.src;
     setCurrentTime(0);
+    setDuration(0);
+    if (!currentTrack.src) {
+      audio.pause();
+      audio.removeAttribute("src");
+      setIsPlaying(false);
+      return;
+    }
+    audio.src = currentTrack.src;
     if (isPlaying) {
       audio.play().catch(() => setIsPlaying(false));
     }
@@ -49,12 +57,12 @@ export function PlayerProvider({ children }) {
     const index = list.findIndex((t) => t.id === track.id);
     setQueue(list);
     setQueueIndex(index === -1 ? 0 : index);
-    setIsPlaying(true);
+    setIsPlaying(Boolean(track.src));
   }, []);
 
   const togglePlay = useCallback(() => {
     const audio = audioRef.current;
-    if (!currentTrack) return;
+    if (!currentTrack || !currentTrack.src) return;
     if (isPlaying) {
       audio.pause();
       setIsPlaying(false);
@@ -95,6 +103,7 @@ export function PlayerProvider({ children }) {
       currentTime,
       duration,
       volume,
+      previewUnavailable,
       playTrack,
       togglePlay,
       next,
@@ -102,7 +111,7 @@ export function PlayerProvider({ children }) {
       seek,
       setVolume,
     }),
-    [currentTrack, queue, isPlaying, currentTime, duration, volume, playTrack, togglePlay, next, prev, seek]
+    [currentTrack, queue, isPlaying, currentTime, duration, volume, previewUnavailable, playTrack, togglePlay, next, prev, seek]
   );
 
   return <PlayerContext.Provider value={value}>{children}</PlayerContext.Provider>;

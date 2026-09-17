@@ -57,16 +57,16 @@
       "cover": "https://picsum.photos/seed/bollywood-english-hits/400/400",
       "description": "Party favorites mixing Bollywood classics with English chart-toppers.",
       "tracks": [
-        { "id": "be-1", "title": "Marjaani", "artist": "Pritam, Sukhwinder Singh & Sunidhi Chauhan", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-        { "id": "be-2", "title": "Dard-E-Disco", "artist": "Sukhwinder Singh, Vishal & Shekhar", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-        { "id": "be-3", "title": "Tune Maari Entriyaan", "artist": "Bappi Lahiri, KK, Neeti Mohan & Vishal Dadlani", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-        { "id": "be-4", "title": "Gandi Baat", "artist": "Pritam, Mika Singh & Kalpana Patowary", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
-        { "id": "be-5", "title": "Hawa Hawa", "artist": "Mika Singh & Prakriti Kakar", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-        { "id": "be-6", "title": "Blinding Lights", "artist": "The Weeknd", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
-        { "id": "be-7", "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
-        { "id": "be-8", "title": "Levitating", "artist": "Dua Lipa", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
-        { "id": "be-9", "title": "Shape of You", "artist": "Ed Sheeran", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" },
-        { "id": "be-10", "title": "As It Was", "artist": "Harry Styles", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
+        { "id": "be-1", "title": "Marjaani", "artist": "Pritam, Sukhwinder Singh & Sunidhi Chauhan", "src": null },
+        { "id": "be-2", "title": "Dard-E-Disco", "artist": "Sukhwinder Singh, Vishal & Shekhar", "src": null },
+        { "id": "be-3", "title": "Tune Maari Entriyaan", "artist": "Bappi Lahiri, KK, Neeti Mohan & Vishal Dadlani", "src": null },
+        { "id": "be-4", "title": "Gandi Baat", "artist": "Pritam, Mika Singh & Kalpana Patowary", "src": null },
+        { "id": "be-5", "title": "Hawa Hawa", "artist": "Mika Singh & Prakriti Kakar", "src": null },
+        { "id": "be-6", "title": "Blinding Lights", "artist": "The Weeknd", "src": null },
+        { "id": "be-7", "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "src": null },
+        { "id": "be-8", "title": "Levitating", "artist": "Dua Lipa", "src": null },
+        { "id": "be-9", "title": "Shape of You", "artist": "Ed Sheeran", "src": null },
+        { "id": "be-10", "title": "As It Was", "artist": "Harry Styles", "src": null }
       ]
     },
     {
