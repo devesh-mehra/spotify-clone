@@ -1,0 +1,85 @@
+{
+  "albums": [
+    {
+      "id": "chill-vibes",
+      "title": "Chill Vibes",
+      "artist": "Various Artists",
+      "cover": "https://picsum.photos/seed/chill-vibes/400/400",
+      "description": "Laid-back beats to slow down your day.",
+      "tracks": [
+        { "id": "cv-1", "title": "Golden Hour", "artist": "Lumen Bay", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
+        { "id": "cv-2", "title": "Soft Static", "artist": "Nova Reyes", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
+        { "id": "cv-3", "title": "Slow Tide", "artist": "Marlow", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
+        { "id": "cv-4", "title": "Paper Clouds", "artist": "Lumen Bay", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" }
+      ]
+    },
+    {
+      "id": "workout-mix",
+      "title": "Workout Mix",
+      "artist": "Various Artists",
+      "cover": "https://picsum.photos/seed/workout-mix/400/400",
+      "description": "High energy tracks to push through the last rep.",
+      "tracks": [
+        { "id": "wm-1", "title": "Redline", "artist": "Axel Storm", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
+        { "id": "wm-2", "title": "Overdrive", "artist": "Kinetic", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
+        { "id": "wm-3", "title": "Pace Setter", "artist": "Axel Storm", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
+        { "id": "wm-4", "title": "Full Send", "artist": "Kinetic", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" }
+      ]
+    },
+    {
+      "id": "late-night-drive",
+      "title": "Late Night Drive",
+      "artist": "Various Artists",
+      "cover": "https://picsum.photos/seed/late-night-drive/400/400",
+      "description": "Synths and city lights for the long way home.",
+      "tracks": [
+        { "id": "lnd-1", "title": "Neon Exit", "artist": "Vantablack", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" },
+        { "id": "lnd-2", "title": "Empty Highway", "artist": "Reverie", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" },
+        { "id": "lnd-3", "title": "Rearview", "artist": "Vantablack", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3" }
+      ]
+    },
+    {
+      "id": "focus-flow",
+      "title": "Focus Flow",
+      "artist": "Various Artists",
+      "cover": "https://picsum.photos/seed/focus-flow/400/400",
+      "description": "Instrumental textures for deep work.",
+      "tracks": [
+        { "id": "ff-1", "title": "Quiet Room", "artist": "Sable Pine", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3" },
+        { "id": "ff-2", "title": "Low Hum", "artist": "Sable Pine", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3" },
+        { "id": "ff-3", "title": "Threadwork", "artist": "Isolate", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3" }
+      ]
+    },
+    {
+      "id": "bollywood-english-hits",
+      "title": "Bollywood & English Hits",
+      "artist": "Various Artists",
+      "cover": "https://picsum.photos/seed/bollywood-english-hits/400/400",
+      "description": "Party favorites mixing Bollywood classics with English chart-toppers.",
+      "tracks": [
+        { "id": "be-1", "title": "Marjaani", "artist": "Pritam, Sukhwinder Singh & Sunidhi Chauhan", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
+        { "id": "be-2", "title": "Dard-E-Disco", "artist": "Sukhwinder Singh, Vishal & Shekhar", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
+        { "id": "be-3", "title": "Tune Maari Entriyaan", "artist": "Bappi Lahiri, KK, Neeti Mohan & Vishal Dadlani", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
+        { "id": "be-4", "title": "Gandi Baat", "artist": "Pritam, Mika Singh & Kalpana Patowary", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
+        { "id": "be-5", "title": "Hawa Hawa", "artist": "Mika Singh & Prakriti Kakar", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
+        { "id": "be-6", "title": "Blinding Lights", "artist": "The Weeknd", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
+        { "id": "be-7", "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
+        { "id": "be-8", "title": "Levitating", "artist": "Dua Lipa", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
+        { "id": "be-9", "title": "Shape of You", "artist": "Ed Sheeran", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" },
+        { "id": "be-10", "title": "As It Was", "artist": "Harry Styles", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
+      ]
+    },
+    {
+      "id": "indie-discoveries",
+      "title": "Indie Discoveries",
+      "artist": "Various Artists",
+      "cover": "https://picsum.photos/seed/indie-discoveries/400/400",
+      "description": "Fresh tracks from artists on the rise.",
+      "tracks": [
+        { "id": "id-1", "title": "Cardboard Wings", "artist": "The Paper Foxes", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3" },
+        { "id": "id-2", "title": "Static Bloom", "artist": "Harlow June", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3" },
+        { "id": "id-3", "title": "Corner Store", "artist": "The Paper Foxes", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" }
+      ]
+    }
+  ]
+}
