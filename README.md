@@ -13,8 +13,8 @@ A Spotify-style music player that searches and plays real songs from YouTube.
 
 ## How it works
 
-- **Search:** uses the YouTube Data API v3 ([src/api/youtubeApi.js](src/api/youtubeApi.js)).
-- **Playback:** uses the YouTube IFrame Player API, hidden behind a custom player bar ([src/context/PlayerContext.jsx](src/context/PlayerContext.jsx)).
+- **Search:** uses the YouTube Data API v3 .
+- **Playback:** uses the YouTube IFrame Player API, hidden behind a custom player bar.
 
 Nothing is downloaded or re-hosted. YouTube serves all the audio and video.
 
