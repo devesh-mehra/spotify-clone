@@ -47,6 +47,46 @@ export function VolumeIcon({ level = 1, ...props }) {
   );
 }
 
+export function ShuffleIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" {...props}>
+      <path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z" />
+    </svg>
+  );
+}
+
+export function RepeatIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" {...props}>
+      <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z" />
+    </svg>
+  );
+}
+
+export function CloseIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" {...props}>
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+    </svg>
+  );
+}
+
+export function PlusIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" {...props}>
+      <path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z" />
+    </svg>
+  );
+}
+
+export function RemoveIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" {...props}>
+      <path d="M5 11h14v2H5z" />
+    </svg>
+  );
+}
+
 export function HomeIcon(props) {
   return (
     <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" {...props}>
